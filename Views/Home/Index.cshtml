@@ -1,0 +1,25 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div class=" mb-3">
+
+    <h1 class="display-4">Padrón Electoral</h1>
+    
+    @if (ViewBag.ErrorMessage != null){
+        <div class="alert alert-danger" role="alert">
+            <h4>Ocurrió un error: @ViewBag.ErrorMessage</h4>
+        </div>
+    }
+
+    <h4>Ingrese su DNI:</h4>
+
+    <form action='@Url.Action("ConsultarPadron", "Home")' method="GET">
+        <div class="form-group">
+            <input type="number" class="form-control" name="DNI" placeholder="Ingrese su DNI" required>
+        </div>
+
+        <button type="submit" class="btn btn-primary mt-3">Buscar</button>
+    </form>
+</div>
+
