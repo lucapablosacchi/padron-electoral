@@ -2,15 +2,11 @@
     ViewData["Title"] = "Votar";
     Persona Persona = ViewBag.Persona;
     Establecimiento Establecimiento = ViewBag.Establecimiento;
-    string estado = Persona.Voto ? "Voto ya registrado" : "Votar";
+    string estado = Persona.Voto ? "Ya votó" : "Votar";
 }
 
-<div class="cuadro" data-aos="fade-down"
-    data-aos-offset="200"
-    data-aos-delay="200"
-    data-aos-duration="800"
-    data-aos-easing="ease-in-out">
-    <h1 class="display-4">Votar</h1>
+<div class="fondo">
+    <h1 class="display-4"><u>Votar</u></h1>
 
     @if (ViewBag.ErrorMessage != null){
         <div class="alert alert-danger" role="alert">
@@ -27,23 +23,23 @@
     <form method="POST" action='@Url.Action("Votar", "Home")'>
         <div class="row">
             <div class="col-sm-12 col-lg-6">
-                <h3>Datos Personales</h3> <hr />
+                <h3>Datos Del Votante</h3> <hr />
                 <div class="form-group">
                     <label for="DNI">DNI</label>
                     <input type="number" class="form-control text-center" name="DNI" readonly value="@Persona.DNI">
                 </div>
 
-                <div class="row">
-                    <div class="col-sm-12 col-lg-6 form-group">
-                        <label for="Nombre">Nombre</label>
-                        <input type="text" class="form-control text-center" name="Nombre" readonly value="@Persona.Nombre">
-                    </div>
-
-                    <div class="col-sm-12 col-lg-6 form-group">
-                        <label for="apellido">Apellido</label>
-                        <input type="text" class="form-control text-center" name="Apellido" readonly value="@Persona.Apellido">
-                    </div>
+               
+                <div class="form-group">
+                    <label for="Nombre">Nombre</label>
+                    <input type="text" class="form-control text-center" name="Nombre" readonly value="@Persona.Nombre">
                 </div>
+
+                <div class="form-group">
+                    <label for="apellido">Apellido</label>
+                    <input type="text" class="form-control text-center" name="Apellido" readonly value="@Persona.Apellido">
+                </div>
+                
 
                 @if(!Persona.Voto){
                     <div class="form-group">
@@ -77,7 +73,7 @@
         </div>
 
         <div class="form-group">
-            <a href='@Url.Action("Index", "Home")' class="btn btn-secondary">Consultar otro DNI</a>
+            <a href='@Url.Action("Index", "Home")' class="btn btn-secondary">Volver</a>
             <button type="submit" class="btn btn-primary" disabled="@Persona.Voto">
                 @estado
             </button>

@@ -1,5 +1,5 @@
 {
-  "FilePath": "c:\\Users\\Luca\\Desktop\\TP10\\TP10.csproj",
+  "FilePath": "c:\\Users\\Luca\\Desktop\\TP10-Sacchi-Silva\\TP10.csproj",
   "Configuration": {
     "ConfigurationName": "MVC-3.0",
     "LanguageVersion": "5.0",
@@ -15619,38 +15619,38 @@
   "RootNamespace": "TP10",
   "Documents": [
     {
-      "FilePath": "c:\\Users\\Luca\\Desktop\\TP10\\Views\\Shared\\Error.cshtml",
-      "TargetPath": "Views\\Shared\\Error.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\Luca\\Desktop\\TP10\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
-      "TargetPath": "Views\\Shared\\_ValidationScriptsPartial.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\Luca\\Desktop\\TP10\\Views\\Home\\Votar.cshtml",
-      "TargetPath": "Views\\Home\\Votar.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\Luca\\Desktop\\TP10\\Views\\_ViewImports.cshtml",
-      "TargetPath": "Views\\_ViewImports.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\Luca\\Desktop\\TP10\\Views\\Home\\Index.cshtml",
-      "TargetPath": "Views\\Home\\Index.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\Luca\\Desktop\\TP10\\Views\\_ViewStart.cshtml",
+      "FilePath": "c:\\Users\\Luca\\Desktop\\TP10-Sacchi-Silva\\Views\\_ViewStart.cshtml",
       "TargetPath": "Views\\_ViewStart.cshtml",
       "FileKind": "mvc"
     },
     {
-      "FilePath": "c:\\Users\\Luca\\Desktop\\TP10\\Views\\Shared\\_Layout.cshtml",
+      "FilePath": "c:\\Users\\Luca\\Desktop\\TP10-Sacchi-Silva\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+      "TargetPath": "Views\\Shared\\_ValidationScriptsPartial.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\Luca\\Desktop\\TP10-Sacchi-Silva\\Views\\Shared\\_Layout.cshtml",
       "TargetPath": "Views\\Shared\\_Layout.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\Luca\\Desktop\\TP10-Sacchi-Silva\\Views\\_ViewImports.cshtml",
+      "TargetPath": "Views\\_ViewImports.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\Luca\\Desktop\\TP10-Sacchi-Silva\\Views\\Shared\\Error.cshtml",
+      "TargetPath": "Views\\Shared\\Error.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\Luca\\Desktop\\TP10-Sacchi-Silva\\Views\\Home\\Votar.cshtml",
+      "TargetPath": "Views\\Home\\Votar.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\Luca\\Desktop\\TP10-Sacchi-Silva\\Views\\Home\\Index.cshtml",
+      "TargetPath": "Views\\Home\\Index.cshtml",
       "FileKind": "mvc"
     }
   ],
